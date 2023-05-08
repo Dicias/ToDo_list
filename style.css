@@ -101,7 +101,7 @@ label{
     margin-left: 1vh;
 }
 input{
-    margin-left: 2vh;
+    
     color: white;
 }
 
@@ -140,4 +140,26 @@ input[type="checkbox"]{
     display: flex;
     flex-direction: column;
 
+}
+
+/* Estilos DAM*/
+
+.check{
+    width: 20px;
+    height: 20px;
+    border-radius: 2px;
+    border:2px solid white;
+    float: left;
+    margin-top: 12px;
+    margin-right: 10px;
+}
+
+.terminado .tarea{
+    opacity: .2;
+    text-decoration: line-through;
+}
+
+.terminado .check{
+    background: white;
+    box-shadow: inset 4px 4px rgba(52, 73, 94,.9), inset -4px -4px rgba(52, 73, 94,.9);
 }

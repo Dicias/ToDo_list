@@ -87,7 +87,7 @@ jsonTarea = {
     'status':'pendiente'
     };
     //crear elemento nuevo en la interfaz
-    elemento = "<div class='tarea' id='" +elementosGuardados+"'>" +
+    elemento = "<div class='tarea' id='" +elementosGuardados+"'onClick='cambiarEstado(this.id)'>" +
                 "<input type='checkbox' id='tarea1'>" +
     "<label for='tarea1'> "+jsonTarea.valor+"  </label>" +
 "</div>"
