@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #313642;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width: 100vw;
+    
+}
+.container{
+    background-color: #313642;
+    height: 100vh;
+    width: 100vw;
+}
+
+.encabezado{
+    background-color: #121315;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color: #121315;
+    border-radius: 1px;
+    border-style: solid;
+
+}
+
+.fecha{
+    color: #313642;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+article{
+    margin-left: 1vh;
+    margin-top: 1vh;
+}
+#insertarTarea{
+    background-color: #4f5259;
+    border-radius: 10vh;
+    border-style: solid;
+    width: 80vw;
+    height: 5vh;
+    
+}
+#insertarTarea::placeholder{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 1vh;
+}
+
+button{
+    background-color: #075470;
+    color: white;
+    font-size:x-large;
+    font-family:Arial, Helvetica, sans-serif;
+    border-color: #075470;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 1px;
+    height: 5vh;
+    width: 10vw;
+    margin: 1vh;
+}
+
+h2{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.container_2{
+    background-color: #313642;
+    height: 100vh;
+    width: 100vw;
+    
+}
+
+
+nav{
+    align-items: center;
+    justify-content: center;
+    font-weight: 100;
+    display: flex;
+}
+
+.tarea{
+    display: flex;
+    background-color: #4f5259;
+    height: 6vh;
+    width: 95vw;
+    justify-content: left;
+    margin: 5px;
+    align-items: center;
+    border-radius:10vh;
+}
+
+label{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 1vh;
+}
+input{
+    margin-left: 2vh;
+    color: white;
+}
+
+.tareaTerminada{
+    display: flex;
+    background-color: #4f5259;
+    height: 6vh;
+    width: 95vw;
+    justify-content: left;
+    align-items: center;
+    border-radius:10vh;
+}
+
+div>input>checkbox{
+    appearance: none;
+}
+
+s{
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+    margin-left: 1vh;   
+}
+input[type="checkbox"]{
+
+    background-size: contain;
+}
+
+.porhacer{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.terminado{
+    display: flex;
+    flex-direction: column;
+
+}

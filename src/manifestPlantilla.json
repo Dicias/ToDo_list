@@ -1,0 +1,24 @@
+{
+  "name": "Nombre de la app", //Representa el nombre de la app que se desplega al usuario 
+  "short_name": "Nombre corto", //Es el nombre de la app si no hay suficiente espacio
+  "start_url": "/", //Es la liga que se cargará cuando el usuario abre la app
+  "display": "standalone", //Es el modo de presentación de la app (fullscreen, standalone, minimal-ui, browser)
+  "background_color": "#ff88ff",//Es el color de fondo cargado antes de que se cargue la hoja de estilos
+  "lang": "es",//idioma de la app
+  "scope": "/", //Establece el límite del alcance de la app, en caso de salirse de la ruta regresa al original
+  "description": "", //Es la descripción de la app
+  "theme_color": "#40C090", //Es el color por defecto del tema de la app
+  //Iconos: es el listado del tamaño de los iconos para las diferentes resoluciones de pantalla
+  "icons": [
+    {
+      "src": "pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "pwa-512x512.png",
+      "sizes": "225x225",
+      "type": "image/png"
+    }
+  ]
+}

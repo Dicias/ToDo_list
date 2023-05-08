@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="./src/manifestPlantilla.json">
+    <title> App Progresiva </title>
+
+</head>
+<body>
+    <div class="container">
+    <header class=" encabezado">
+    <h1>Mis pendientes</h1>      
+    <h5 id="fecha"> 27 de marzo</h5>
+    </header>
+        <section class="container_2">
+            <article>
+                <input type="text"  id="insertarTarea" placeholder=" Escribe aquí">
+                <button onclick="agregar()" type="submit">+</button>
+            </article>
+                <br>
+                <h2> Por hacer</h2>
+                <nav class="porhacer">
+                    
+                </nav>
+            
+                <h2>Terminado </h2>
+                <nav class="terminado">
+                    <!--
+                    <div class="tareaTerminada">
+                        <input type="checkbox" id="tarea1">
+                        <s for="tarea1"> hacer ejercicio</s>
+                    </div>
+                    -->
+                </nav>
+            
+        </section>
+    </div>
+
+</body>
+<script src="funciones.js"></script>
+<script>
+    window.addEventListener('load', init);
+</script>
+</html>
